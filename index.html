@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendário</title>
+</head>
+<body>
+    <!-- CRIAR O LAYOUT DE UM CALENDÁRIO SIMPLES-->
+    <div class="config">
+        <i class="material-icons">settings</i>
+        <div class="dropdown">
+            <label for="url">Digite um Link para uma imagem</label>
+            <input type="text"  name="url" placeholder="Digite o link de uma imagem">
+        </div>
+    </div>
+    <main>
+        <div class="image-calendar">
+            <img src="red.jpg" alt="bakcground" class="bgImg">
+            <div class="day-month">
+                <h1 id="dia"></h1>
+                <h2 id="mes"></h2>
+            </div>
+            
+        </div>
+
+        <div class="calendar">
+            <ul class="week-days">
+                <li>Dom</li>
+                <li>Seg</li>
+                <li>Ter</li>
+                <li>Qua</li>
+                <li>Qui</li>
+                <li>Sex</li>
+                <li>Sáb</li>
+            </ul>
+
+            <ul class="month-days">
+            </ul>
+        </div>
+    </main>
+ 
+    <section class="pop-upOverlay"></section>
+    </section>
+    <script src="calendar.js"></script>
+    <script src="app.js"></script> 
+    <script src="contrast.js"></script> 
+</body>
+</html>
