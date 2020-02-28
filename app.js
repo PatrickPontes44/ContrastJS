@@ -2,7 +2,7 @@ var bgBody = document.querySelector("body");
 var bgCalendar = document.querySelector(".image-calendar");
 var monthDays = document.querySelector(".month-days");
 var dayPopUp = document.querySelector(".pop-upOverlay");
-var imageBg = document.querySelector(".bgImage");
+var imageBg = document.querySelector(".bgImg");
 var textUrl = document.querySelector("#textUrl");
 
 textUrl.addEventListener('keypress', (event) => {
