@@ -3,10 +3,14 @@ var bgCalendar = document.querySelector(".image-calendar");
 var monthDays = document.querySelector(".month-days");
 var dayPopUp = document.querySelector(".pop-upOverlay");
 var imageBg = document.querySelector(".bgImage");
+var textUrl = document.querySelector("#textUrl");
 
-function setBg(e){
-    imageBg.attributes.src = e.target.value;
-}
+textUrl.addEventListener('keypress', (event)=>{
+    if (event.keyCode === 13) { 
+        imageBg.attributes.src = e.target.value; 
+    }
+});
+
 
 function Alert (e){
     dayPopUp.style.display = "flex";
