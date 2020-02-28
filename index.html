@@ -13,12 +13,12 @@
         <i class="material-icons">settings</i>
         <div class="dropdown">
             <label for="url">Digite um Link para uma imagem</label>
-            <input type="text"  name="url" placeholder="Digite o link de uma imagem">
+            <input type="text"  name="url" placeholder="Digite o link de uma imagem" onchange="setBg(event)">
         </div>
     </div>
     <main>
         <div class="image-calendar">
-            <img src="https://image.shutterstock.com/image-photo/dark-green-wall-texture-designer-260nw-1248360493.jpg" alt="bakcground" class="bgImg">
+            <img src="red.jpg" alt="background" class="bgImg">
             <div class="day-month">
                 <h1 id="dia"></h1>
                 <h2 id="mes"></h2>
