@@ -7,7 +7,7 @@ var textUrl = document.querySelector("#textUrl");
 
 textUrl.addEventListener('keypress', (event) => {
     if (event.keyCode === 13) { 
-        imageBg.src = e.target.value; 
+        imageBg.src = event.target.value; 
     }
 });
 
