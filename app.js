@@ -5,7 +5,7 @@ var dayPopUp = document.querySelector(".pop-upOverlay");
 var imageBg = document.querySelector(".bgImage");
 var textUrl = document.querySelector("#textUrl");
 
-textUrl.addEventListener('keypress', (event)=>{
+textUrl.addEventListener('keypress', (event) => {
     if (event.keyCode === 13) { 
         imageBg.attributes.src = e.target.value; 
     }
